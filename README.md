@@ -1,5 +1,5 @@
-#Docker Registry v2 UI
-##Sequence
+# Docker Registry v2 UI
+## Sequence
 This docker image acts also as reverse proxy for the docker registry due to the CORS headers we need to set. 
 ```sequence
 Browser->r2ui: GET http://r2ui/
@@ -13,7 +13,7 @@ r2ui->registry:  GET http://registryalias:5000/v2/repository/tags/list
 registry->r2ui: tags[]
 r2ui->Browser: tags[]
 ```
-#Usage
+# Usage
 Docker-compose 1.6 sample excerpt using the mandatory alias name "registryalias":
 ```
 version: 2.0
