@@ -1,4 +1,7 @@
 # Docker Registry v2 UI
+
+This project is deprecated.
+
 ## Sequence
 This docker image acts also as reverse proxy for the docker registry due to the CORS headers we need to set. 
 ```sequence
